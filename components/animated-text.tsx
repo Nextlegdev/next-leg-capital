@@ -42,11 +42,18 @@ export function AnimatedText({ text, className = "" }: AnimatedTextProps) {
   return (
     <motion.div variants={container} initial="hidden" animate="visible" className={className}>
       {words.map((word, index) => (
-        <motion.span variants={child} key={index} className="inline-block mr-3 last:mr-0">
+        <motion.span
+          variants={child}
+          key={index}
+          className="inline-block mr-[0.25em] mb-2"
+          style={{ display: "inline-block", whiteSpace: "pre" }}
+        >
           {word}
         </motion.span>
       ))}
     </motion.div>
   )
 }
+
+
 

@@ -32,7 +32,7 @@ export default function Home() {
           <div className="mb-20">
             <AnimatedText
               text="GROWTH CAPITAL FOR SOLANA BUILDERS"
-              className="text-6xl md:text-8xl font-bold tracking-tighter leading-none mb-8"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-normal leading-tight mb-8"
             />
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -262,4 +262,5 @@ export default function Home() {
     </div>
   )
 }
+
 

@@ -50,3 +50,4 @@ export function AnimatedText({ text, className = "" }: AnimatedTextProps) {
   )
 }
 
+
